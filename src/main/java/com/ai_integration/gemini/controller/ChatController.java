@@ -12,6 +12,10 @@ public class ChatController {
 
     private final ChatService chatService;
 
+    public String testCheck(){
+        return "Hello from the version 1";
+    }
+
     public ChatController(ChatService chatService){
         this.chatService = chatService;
     }
