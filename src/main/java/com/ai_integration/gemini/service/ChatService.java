@@ -15,4 +15,8 @@ public class ChatService {
     public String ask(String prompt){
         return chatClient.prompt(prompt).call().content();
     }
+
+    public String generateProcess(){
+        return "processing the result from service layer...";
+    }
 }
